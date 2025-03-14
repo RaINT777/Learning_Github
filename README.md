@@ -54,6 +54,21 @@ git push --set-upstream origin <branch-name>
 When prompted:
 - Username: Your GitHub username
 - Password: Use your PAT (Personal Access Token)
+Alternative: Use GitHub Account via Windows Credential Manager
+## Alternative Authentication: Use GitHub Account via Windows Credential Manager
+
+### Alternative Set Up GitHub Authentication Using Windows Credential Manager:
+
+  1. Open **Control Panel** and go to **Credential Manager**.
+   
+  2. Under **Windows Credentials**, click on **Add a Windows credential**.
+
+  3. In the pop-up window, enter the following details:
+     - **Internet or network address**: `git:https://github.com`
+     - **Username**: Your **GitHub username**
+     - **Password**: Your **Personal Access Token (PAT)** (copy and paste the token you generated on GitHub).
+   4. Click **OK** to save the credentials.
+for mor detail For more detail [Github Credential](https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/github-apideprecation.md)
 
 ### 5. Next Steps
 Feel free to explore other Git commands and features:
